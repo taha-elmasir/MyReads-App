@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #444;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+input[type="search"] {
+  width: 50%;
+  padding: 1.2rem;
+  border: 3px solid #868e96;
+  font-size: 1.8rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="search"]:focus {
+  outline: none;
+}
+
+.left {
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+.book-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ddd;
+  border-radius: 1rem;
+  padding: 2.4rem;
+  text-align: left;
+}
+
+.book-detail img {
+  width: 100%;
+  height: 200px;
+  width: 160px;
+  border-radius: 0 2rem;
+}
+
+@media (max-width: 600px) {
+  input[type="search"] {
+    width: 100%;
+  }
+}
