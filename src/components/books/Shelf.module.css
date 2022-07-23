@@ -1,0 +1,43 @@
+.shelf {
+  background-color: #ddd;
+  margin-bottom: 4.8rem;
+  text-decoration: 2px dashed red;
+  border-radius: 1rem;
+  padding: 2.4rem 1.8rem;
+  box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.05);
+  transition: all 1s;
+}
+
+.shelf h2 {
+  color: #1864ab;
+  display: inline-block;
+  margin-bottom: 2.4rem;
+  border-bottom: 2px dashed #212529;
+}
+
+.shelf ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  list-style: none;
+}
+
+@media (max-width: 1440px) {
+  .shelf ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 1170px) {
+  .shelf ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 868px) {
+  .shelf ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .shelf ul {
+    grid-template-columns: 1fr;
+  }
+}
