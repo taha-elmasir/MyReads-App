@@ -2,7 +2,7 @@
 
 ## Description
 
-A Books tracking App
+A Book Tracking App
 
 ## tools and languages used to create the project
 
